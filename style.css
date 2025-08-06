@@ -10,12 +10,12 @@
     font-family: 'Poppins';
 }
 :root{
-    --background:rgb(24,24,24);
-    --second-background:rgb(21,21,21);
+    --background:#E5E5EA;
+    --second-background:rgb(54, 46, 46);
 }
 body{
     min-height: 100vh;
-    background-color: black;
+    background-color: var(--background);
 
 }
 nav{
@@ -26,7 +26,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(15,15,15,0.8);
+    background-color: #F7F7F7;
     backdrop-filter: blur(10px);
     z-index: 1000;
 }
@@ -36,7 +36,7 @@ ul{
     gap: 3em;
 }
 nav ul a{
-    color: white;
+    color: black;
     opacity: 0.7;
     transition: 0.2s ease-in-out;
 }
@@ -53,12 +53,12 @@ nav ul a:hover{
     opacity: 1;
 }.btn{
     padding: 0.5em 1em;
-    color: white;
+    color: black;
     font-weight: 500;
     letter-spacing: 1px;
     border-radius: 0.5em;
     font-size: 1.1em;
-    border: 2px solid white;
+    border: 2px solid rgb(67, 89, 122);
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }.btn:hover{
@@ -67,7 +67,7 @@ nav ul a:hover{
 }
 span{
     background: linear-gradient(to right,rgb(68, 157, 209),
-    blue);
+    rgb(13, 43, 19));
     background-clip: text;
     color: transparent;
 }
@@ -84,8 +84,9 @@ section{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-size: medium;
     gap: 2em;
-    color: white;
+    color: black;
 }
 #home img{
     width: 18vw;
@@ -115,11 +116,11 @@ section{
 }
 .btn-box .btn:nth-of-type(2){
     background-color: aqua;
-    color: aliceblue;
+    color: rgb(6, 11, 15);
 }
 .btn-box .btn:nth-of-type(2):hover{
     background-color: var(--background);
-    color: aliceblue;
+    color: rgb(85, 98, 109);
 }
 ::-webkit-scrollbar{
     width: 20px;
@@ -127,10 +128,10 @@ section{
 }
 ::-webkit-scrollbar-thumb{
     background: linear-gradient(to bottom, rgb(99, 210, 230),
-    rgb(15, 153, 56));
+    rgb(10, 12, 10));
 }
 #about{
-    background-color: var(--second-background);
+    background-color: var(--background);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -150,7 +151,7 @@ section{
     font-size: 5em;
 }
 .about-box p{
-    color: white;
+    color: black;
     opacity: 0.8;
 }
 .skills{
@@ -206,7 +207,7 @@ section{
     object-fit: cover;
     padding: 3em;
     gap:2em;
-    color: white;
+    color: black;
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }.box:hover{
@@ -223,7 +224,7 @@ section{
 }
 
 #contact{
-    background-color: var(--second-background);
+    background-color: var(--background);
 }
 form{
     display: flex;
@@ -302,6 +303,20 @@ footer{
 }
 .social-icons i:hover{
     color: white;
+}
+.card{
+    border:3px solid rgb(49, 49,49);
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    object-fit: cover;
+    padding: 3em;
+    gap:2em;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
 }
 
     @media(max-width:968px){
