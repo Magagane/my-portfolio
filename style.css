@@ -134,6 +134,7 @@ section{
     background-color: var(--background);
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
     gap: 5em;
 }
@@ -144,7 +145,7 @@ section{
 .about-box{
     display: flex;
     flex-direction: column;
-    text-align: left;
+    text-align: center;
     gap: 2em;
 }
 .about-box h1{
@@ -156,7 +157,7 @@ section{
 }
 .skills{
     display: flex;
-    text-align: left;
+    text-align: center;
     gap: 10em;
 }
 .skills ul{
