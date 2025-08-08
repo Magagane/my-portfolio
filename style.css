@@ -342,3 +342,10 @@ footer{
 .download-btn:hover{
     background-color: #3e8e41;
 }
+@media (max-width: 768px){
+    body{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+}
