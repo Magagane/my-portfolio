@@ -135,20 +135,17 @@
     </section>
     <section id="contact">
         <h1 class="header"><span>Contact</span></h1>
-        <form action="#">
-            <div class="input-box">
-                <span>Full Name</span>
-                <input type="text" placeholder="Enter your Name">
-            </div>
-            <div class="input-box">
-                <span>Email</span>
-                <input type="text" placeholder="Enter your Email">
-            </div>
-            <div class="input-box">
-                <span>Message</span>
-                <input type="text" placeholder="Enter Message">
-            </div>
-            <div class="btn">Submit</div>
+        <form name="contact" method="post" data-netlify="true">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">message:</label>
+            <textarea name="message" id="message" rows="5" cols="30"></textarea>
+
+            <button type="submit">Submit</button>
         </form>
 
     </section>
