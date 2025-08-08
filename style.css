@@ -393,3 +393,24 @@ button[type="submit"]{
 button[type="submit"]:hover{
     background-color: #3e8e41;
 }
+
+#about table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+}
+#about th,#about td{
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+#about th{
+    background-color: #4CAF50;
+    color: #fff;
+}
+#about td{
+    background-color: #f9f9f9;
+}
+#about tr:nth-child(even) td{
+    background-color: #f2f2f2;
+}
