@@ -9,19 +9,23 @@
     <title>Nsovo Portfolio</title>
 </head>
 <body>
-    <nav>
+    <nav id="nav">
         <a href="#" class="logo"><span>Nsovo</span></a>
-
-        <ul class="links">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#project">Projects</a>
-            <a href="#services">Services</a>
-            <a href="#contact">Contact</a>
-            
+        <select id="nav-select" onchange="location=this.value;">
+            <option value="#home">Home</option>
+            <option value="#about">About</option>
+            <option value="#project">Projects</option>
+            <option value="#services">Services</option>
+            <option value="#contact">Contact</option>
+        </select>
+        <ul id="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
-        <i class='bx  bx-menu-alt-right' id="menu"></i> 
-        <a href="#contact" class="btn">Contact Me</a>
+
 
     </nav>
     <section id="home">
