@@ -457,3 +457,19 @@ button[type="submit"]:hover{
         display: flex;
     }
 }
+.social-media-links{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.social-media-links a{
+    color: #333;
+    transition: color 03s ease;
+}
+.social-media-links a:hover{
+    color: #007bff;
+}
+.social-media-links a i{
+    font-size: 24px;
+}
