@@ -10,7 +10,7 @@
     font-family: 'Poppins';
 }
 :root{
-    --background:#E5E5EA;
+    --background:#ced3d4;
     --second-background:rgb(54, 46, 46);
 }
 body{
@@ -36,12 +36,15 @@ ul{
     gap: 3em;
 }
 nav ul a{
-    color: black;
+    font-weight: bold;
+    color: #333;
     opacity: 0.7;
     transition: 0.2s ease-in-out;
+    text-decoration: none;
 }
 nav ul a:hover{
     opacity: 1;
+    color: #666;
 
 }.logo{
     font-size: 2em;
@@ -66,8 +69,8 @@ nav ul a:hover{
     color: var(--background);
 }
 span{
-    background: linear-gradient(to right,rgb(68, 157, 209),
-    rgb(13, 43, 19));
+    background: linear-gradient(to right,rgb(49, 58, 63),
+    rgb(4, 12, 5));
     background-clip: text;
     color: transparent;
 }
@@ -149,7 +152,7 @@ section{
     gap: 2em;
 }
 .about-box h1{
-    font-size: 5em;
+    font-size: 3em;
 }
 .about-box p{
     color: black;
@@ -191,7 +194,7 @@ section{
 }
 .header{
     text-align: center;
-    font-size: 5em;
+    font-size: 3em;
     margin: 0.5em 0;
 }
 .services-container{
@@ -254,19 +257,6 @@ form input{
 form input:focus{
     background: rgb(100,100,100);
 }
-footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap:10em;
-    bottom: 0;
-    background-color: var(--background);
-    width: 100%;
-    padding: 5em 15%;
-
-}
-
-
 
 
 .card{
